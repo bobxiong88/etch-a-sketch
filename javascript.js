@@ -8,6 +8,7 @@ const reset = document.querySelector("#reset");
 
 reset.addEventListener('click', ()=>{
     let n;
+    grid.innerHTML = "";
     let msg = "Enter grid size (1-100)";
     while (true){
         n = prompt(msg);
